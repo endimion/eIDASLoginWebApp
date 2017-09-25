@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Getting Started: Handling Form Submission</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link href='http://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet' />
+        <link href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css' rel='stylesheet' type='text/css'/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js' type='text/javascript'></script>
+    </head>
+    <body>
+
+        <div class="container">
+
+            <a th:href="@{'https://stork-ap.aegean.gr:8443/ISSPlus/ValidateToken'(t=${token},sp=${sp},cc=${country}, saml='eIDAS')}">Go eIDAS</a>
+ 
+
+        </div>
+
+    </body>
+</html>
